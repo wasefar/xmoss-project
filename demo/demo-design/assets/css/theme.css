@@ -1,0 +1,1099 @@
+
+
+/*
+Theme Name: personal Template;
+Version:1.0;
+
+
+*/
+
+
+/*
+CSS LIST========>
+
+
+======================>>
+TOP HEADER CSS
+======================>>
+HEADER AREA CSS
+======================>>
+MAIN SLIDER AREA CSS
+=======================>>
+ABOUT AREA CSS AREA CSS
+=======================>>
+SERVICE AREA CSS
+=======================>>
+VIDEO AREA CSS
+=======================>>
+COUNTER AREA CSS
+=======================>>
+TEAM AREA CSS
+=======================>>
+BANNER ADD AREA CSS
+=======================>>
+TESTIMONIALS  AREA CSS
+=======================>>
+NEWSLETTER  AREA CSS
+=======================>>
+SOCIAL AREA CSS
+=======================>>
+FOOTER AREA CSS
+
+=========>>COMMON CSS
+
+*/
+
+
+/*
+==========================
+	TOP HEADER AREA CSSS
+==========================
+*/
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.container_box {
+	width : 70%;
+	margin: 0 auto;
+}
+
+.icon_media {
+	width       : 22px;
+	height      : 22px;
+	display     : block;
+	background  : #03115a;
+	font-size   : 10px;
+	text-align  : center;
+	color       : #fff;
+	line-height : 21px;
+	float       : left;
+	margin-right: 8px;
+}
+
+.text_social .tittle_here {
+	margin      : 0;
+	line-height : 2px;
+	font-size   : 11px;
+}
+
+.info_media {
+	font-size   : 10px;
+	color       : #03115a;
+	font-weight : normal;
+	margin      : 0;
+}
+
+.lang_item_bar {
+	float: right;
+}
+
+.btn.btn-danger.lang_bar.dropdown-toggle {
+	border     : none;
+	background : none;
+	color      : #03115a;
+	font-size  : 10px;
+}
+
+.btn-danger:not(:disabled):not(.disabled).active:focus,
+.btn-danger:not(:disabled):not(.disabled):active:focus,
+.show>.btn-danger.lang_bar.dropdown-toggle:focus {
+	box-shadow: none;
+}
+
+.top_header_area {
+	background : #fff;
+	padding    : 12px 0 15px;
+}
+
+.text_social {
+	overflow    : hidden;
+	padding-top : 3px;
+}
+
+
+/*
+==========================
+	END TOP HEADER AREA CSSS
+==========================
+*/
+
+
+/*
+==========================
+	 HEADER AREA CSSS
+==========================
+*/
+
+.header_main_area_menu .col-md-2,
+.header_main_area_menu .col-md-7,
+.header_main_area_menu .col-md-3 {
+	padding: 0;
+}
+
+.single_nav_area li {
+	display: inline-block;
+}
+
+.single_nav_area li a {
+	font-size     : 11px;
+	padding       : 0 12px;
+	font-weight   : 600;
+	color         : #fff;
+	background    : transparent;
+	padding       : 4px 15px;
+	border-radius : 50px;
+}
+
+.single_nav_area li a:hover {
+	background: #f36523;
+}
+
+.single_nav_area li.active a {
+	background: #f36523;
+}
+
+.single_nav_area {
+	text-align: center;
+}
+
+.search_field {
+	color       : #fff;
+	background  : none;
+	border      : none;
+	font-size   : 14px;
+	font-weight : bold;
+}
+
+.search_field:focus {
+	box-shadow : none;
+	outline    : none;
+}
+
+.search_field:hover {
+	background: transparent;
+	;
+}
+
+.single_bars img {
+	width       : 24px;
+	padding-top : 4px;
+}
+
+.right_sc_search_area {
+	float    : left;
+	overflow : hidden;
+}
+
+.main_menu_area {
+	background : #03115a;
+	padding    : 12px 0;
+}
+
+.single_nav_area li {
+	position  : relative;
+	z-index   : 2;
+}
+
+.single_nav_area li::before {
+	position      : absolute;
+	bottom        : -24px;
+	left          : 50%;
+	border-bottom : 2px solid #f36621;
+	width         : 0px;
+	height        : 2px;
+	content       : '';
+	transform     : translateX(-50%);
+	transition    : .5s;
+}
+
+.menu_area_item {
+	padding-top  : 6px;
+	padding-left : 5px;
+}
+
+.single_nav_area li:hover:before {
+	width      : 80px;
+	transition : .5s;
+}
+
+.single_nav_area li.active::before {
+	width: 70px;
+}
+
+.right_item_search_bar {
+	float    : right;
+	width    : 35%;
+	overflow : hidden;
+}
+
+
+/*
+==========================
+	 END HEADER AREA CSSS
+==========================
+*/
+
+
+/*
+==========================
+	 MAIN SLIDER AREA CSS
+==========================
+*/
+
+.slider_slide.single.bg_one {
+	background : url("../image/slider-1.jpg") no-repeat center/cover;
+	width      : 100%;
+	height     : 500px;
+	position   : relative;
+	z-index    : 2;
+}
+
+.slider_slide.single.bg_one:after {
+	position  : absolute;
+	top       : 0;
+	left      : 0;
+	width     : 100%;
+	height    : 100%;
+	background: #03115a;
+	content   : '';
+	z-index   : -1;
+	opacity   : 0.3;
+}
+
+.banner_tittle p {
+	font-size    : 18px;
+	font-weight  : 700;
+	position     : relative;
+	color        : #fff;
+	padding-left : 97px;
+}
+
+.banner_tittle p::before {
+	position   : absolute;
+	top        : 12px;
+	left       : 0;
+	width      : 74px;
+	height     : 2px;
+	background : #fff;
+	content    : '';
+}
+
+.banner_tittle {
+	padding-bottom: 5px;
+}
+
+.banner_heading h3 {
+	color      : #fff;
+	font-weight: 600;
+	line-height: 40px;
+	font-size  : 30px;
+}
+
+.banner_paragrap {
+	padding: 4px 0 11px;
+}
+
+.banner_paragrap p {
+	color       : #fff;
+	font-size   : 14px;
+	line-height : 28px;
+}
+
+.banner_btn.read_more_sc {
+	float        : left;
+	margin-right : 25px;
+}
+
+.banner_video_item {
+	overflow: hidden;
+	margin-top: -13px;
+}
+
+.inside_contant {
+	position  : absolute;
+	top       : 50%;
+	transform : translateY(-50%);
+}
+
+.owl-carousel.home_slider .owl-dots {
+	position  : absolute;
+	bottom    : 20px;
+	left      : 50%;
+	transform : translateX(-50%);
+}
+
+.owl-carousel.home_slider .owl-dots span {
+	width  : 5px;
+	height : 8px;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+	background : #f36523;
+	width      : 5px;
+	height     : 12px;
+}
+
+
+/*
+==========================
+	 END MAIN SLIDER AREA CSS
+==========================
+*/
+
+
+/*
+==========================
+	 ABOUT AREA CSS
+==========================
+*/
+
+.banner_tittle.about_info p {
+	color: #353859;
+	font-size: 13px;
+	font-weight: 500;
+	padding-left: 39px;
+	margin: 5px 0;
+}
+
+.banner_tittle.about_info p::before {
+	width: 30px;
+	height: 1px;
+	background: #f36523;
+}
+
+.banner_heading.about_info h3 {
+	color: #353859;
+	margin: 0;
+}
+
+.banner_tittle.about_info {
+	padding-bottom: 0;
+}
+
+.banner_paragrap.about_info p {
+	color: #75767b;
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 14px;
+}
+
+.about_banner {
+	background: url("../image/about_img.png") no-repeat center/cover;
+	width: 60%;
+	height: 284px;
+	position: relative;
+	z-index: 2;
+	float: left;
+}
+
+.about_banner::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #03115a;
+	content: '';
+	z-index: -1;
+	opacity: 0.6;
+}
+
+.about_info_single_item {
+	overflow: hidden;
+	background: #ffffff;
+	padding: 21px 29px;
+	width: 52%;
+	float: right;
+	position: absolute;
+	right: 5px;
+	z-index: 2;
+	top: 50%;
+	transform: translateY(-50%);
+	box-shadow: 0px 0px 4px #c4b9b9;
+}
+
+.about_info_box_paragrap p {
+	font-size: 12px;
+	margin: 10px 0 22px;
+	line-height: 19px;
+	width: 87%;
+}
+
+.about_area_sc {
+	overflow: hidden;
+	margin: 50px 0;
+}
+
+.about_info_details_area {
+	overflow: hidden;
+	position: relative;
+}
+
+.about_info_box_tittle h3 {
+	color: #353859;
+	font-weight: 700;
+}
+
+.owl-carousel.about_slider .owl-nav .owl-prev,
+.owl-carousel.about_slider .owl-nav .owl-next {
+	position: absolute;
+	bottom: 0;
+	right: 21px;
+	background: #03115a;
+	font-size: 15px;
+	width: 27px;
+	height: 27px;
+	text-align: center;
+	line-height: 4px;
+}
+
+.owl-carousel.about_slider .owl-nav .owl-prev {
+	right: 52px;
+}
+
+
+/*
+==========================
+	 END ABOUT AREA CSS
+==========================
+*/
+
+
+/*
+==========================
+	  SERCICE AREA CSS
+==========================
+*/
+
+.banner_tittle.about_info.service p::before {
+	background: #f20000;
+	left: auto;
+	left: 410px;
+}
+
+.service_area_tiitle {
+	margin-bottom: 26px;
+}
+
+.icon_service img {
+	width: 35px;
+}
+
+.service_single_tittle h4 {
+	font-size: 15px;
+	color: #363958;
+	font-weight: 600;
+	margin: 10px 0;
+}
+
+.service_single_paragraph p {
+	font-size: 12px;
+	width: 85%;
+	line-height: 20px;
+}
+
+.service_promo_box {
+	border-right: 1px solid #ececec;
+	border-bottom: 1px solid #ececec;
+}
+
+.service_single_item {
+	padding: 15px 25px;
+}
+
+.service_area_single_box .col-md-4 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.bdr_none_right {
+	border-right: none;
+}
+
+.pd_left {
+	padding: 15px 15px;
+}
+
+.banner_heading about_info service h3 {
+	font-size: 35px;
+}
+
+.service_area_single_box {
+	box-shadow: 1px 3px 4px #ddd;
+	margin-bottom: 68px;
+}
+
+
+/*
+==========================
+	 END SERVICE AREA CSS
+==========================
+*/
+
+
+/*
+==========================
+	  VIDEO AREA CSS
+==========================
+*/
+
+.banner_video_item.videos_area {
+	overflow: inherit;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.icon_video.cricle_top {
+	width: 80px;
+	height: 80px;
+	padding: 8px 8px 0px;
+}
+
+
+/*
+==========================
+	 END VIDEO AREA CSS
+==========================
+*/
+
+
+/*
+==========================
+	 COUNTER AREA CSS
+==========================
+*/
+
+.conuter_lavel span {
+	color: #353859;
+	font-size: 25px;
+	font-weight: 600;
+	font-family: sans-serif;
+}
+
+.conuter_lavel p {
+	color: #353859;
+}
+
+.conuter_lavel.active span,
+.conuter_lavel.active p {
+	color: #f36523;
+}
+
+
+/*
+==========================
+	 END COUNTER AREA CSS
+==========================
+*/
+
+
+/*
+==========================
+	  TEAM AREA CSS
+==========================
+*/
+
+.owl-carousel.team_slider .owl-nav .owl-prev {
+	right: 30px!important;
+}
+
+.owl-carousel.team_slider .owl-nav .owl-prev,
+.owl-carousel.team_slider .owl-nav .owl-next {
+	position: absolute;
+	top: -53px;
+	right: 0px;
+	background: #03115a;
+	font-size: 15px;
+	width: 27px;
+	height: 27px;
+	text-align: center;
+	line-height: 4px;
+}
+
+.owl-carousel.team_slider {
+	margin: 15px 0;
+}
+
+.member_name {
+	color: #353859;
+	font-size: 15px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.single_team_info .position {
+	font-size: 11px;
+	color: #353859;
+	padding-bottom: 10px;
+}
+
+.single_team_info {
+	padding: 15px 15px 0px;
+}
+
+.single_team_member {
+	box-shadow: 3px 6px 5px #ddd;
+}
+
+.project_counter_area {
+	margin-bottom: 31px;
+}
+
+.single_team_item {
+	position: relative;
+	z-index: 2;
+}
+
+.sort_cart img {
+	width: 18px !important;
+}
+
+.sort_cart {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 2;
+	left: 44%;
+	width: 35px;
+	height: 35px;
+	background: #f36523;
+	padding: 9px;
+	border-radius: 50px;
+	opacity: 0;
+	transition: .5s;
+}
+
+.single_team_item:hover .sort_cart {
+	opacity: 1;
+}
+
+.single_team_item::before {
+	background: #03115a;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	content: '';
+	z-index: 2;
+	opacity: 0.8;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.single_team_item:hover:before {
+	width: 100%;
+	transition: .5s;
+}
+
+
+/*
+==========================
+	 END TEAM AREA CSS
+==========================
+*/
+
+
+/*
+==========================
+	 BUSSINESS AREA CSS
+==========================
+*/
+
+.banner_section_bg {
+	background: url("../image/bussiness_banner.jpg") no-repeat center/cover;
+	width: 100%;
+	height: 280px;
+	padding: 82px 61px 71px;
+}
+
+.business_banner_aera {
+	margin: 50px 0 60px;
+}
+
+.project_business {
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.banner_business_tittle {
+	color: #fff;
+	font-weight: 600;
+	font-size: 31px;
+	line-height: 42px;
+}
+
+
+/*
+==========================
+	 END BUSSINESS AREA CSS
+==========================
+*/
+
+
+/*
+==========================
+	 CLIENT AREA CSS
+==========================
+*/
+
+.client_profile_img img {
+	width: 75px !important;
+	height: 75px;
+	border: 3px solid red;
+	border-radius: 50px;
+}
+
+.client_profile_img {
+	float: left;
+	margin-right: 20px;
+}
+
+.client_info h5 {
+	margin: 0;
+	padding-top: 14px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #03115a;
+	overflow: hidden;
+}
+
+.client_info p {
+	font-size: 11px;
+	margin: 0;
+	color: #03115a;
+	overflow: hidden;
+}
+
+.client_info {
+	overflow: hidden;
+	float: left;
+}
+
+.client_says {
+	overflow: hidden;
+	clear: both;
+	font-size: ;
+}
+
+.client_says p {
+	font-size: 14px;
+	font-style: italic;
+	color: #03115a;
+	padding-top: 13px;
+	box-shadow: 3px 4px 5px #ddd;
+	padding-bottom: 30px;
+}
+
+.clint_rateing {
+	text-align: right;
+	line-height: 53px;
+}
+
+.clint_rateing i {
+	font-size: 10px;
+	color: #f36523;
+}
+
+.client_section_single {
+	margin-top: 38px;
+}
+
+.owl-carousel.team_slider.client .owl-nav .owl-prev,
+.owl-carousel.team_slider.client .owl-nav .owl-next {
+	top: -76px;
+}
+
+
+/*
+==========================
+	 END CLIENT AREA CSS
+==========================
+*/
+
+
+/*
+==========================
+	 NEWSLETTER AREA CSS
+==========================
+*/
+
+.slider_slide.single.bg_one.newslatter {
+	background: url("../image/office.jpg") no-repeat center/cover;
+	height: 460px;
+	width: 100%;
+	margin: 45px 0;
+}
+
+.slider_slide.single.bg_one.newslatter:after {
+	opacity: 0.8;
+}
+
+.about_sc_info.video.newslatter {
+	padding-top: 79px;
+	padding-bottom: 26px;
+}
+
+.banner_tittle.about_info.video.newslatter p {
+	color: #fff;
+	font-weight: 600;
+}
+
+.banner_heading.about_info.video.newslatter h3 {
+	font-size: ;
+	color: #fff;
+}
+
+.news_item_image img {
+	height: 280px;
+}
+
+.single_promo_news {
+	border: 1px solid #ddd;
+	overflow: hidden;
+}
+
+.newslatter_event span.event {
+	font-size: 12px;
+	color: #03115a;
+	font-weight: 600;
+}
+
+.comments {
+	overflow: hidden;
+	float: right;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.newslatter_about_tittle h3 {
+	padding: 14px 0 6px;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 35px;
+	color: #353859;
+}
+
+.newslatter_about_paragrap p {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.newslatter_info {
+	overflow: hidden;
+	padding: 8px 33px 8px;
+}
+
+span.comments i {
+	color: #f36523;
+	padding-right: 5px;
+}
+
+span.comments #chat {
+	color: #353859;
+}
+
+.owl-carousel.newsletter_slider .owl-nav .owl-prev, .owl-carousel.newsletter_slider .owl-nav .owl-next {
+	position: absolute;
+	top: 110px;
+	left: 12px;
+	background: rgba(9, 9, 11, 0.7);
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 50px;
+}
+
+.owl-carousel.newsletter_slider .owl-nav .owl-next {
+	left: auto;
+	right: 12px;
+}
+
+
+/*
+==========================
+	 END NEWSLETTER AREA CSS
+==========================
+*/
+
+
+/*
+==========================
+	 FOOTER AREA CSS
+==========================
+*/
+
+.footer_area_sc {
+	background: #03115a;
+	margin-top: 374px;
+	padding: 80px 0 39px;
+}
+
+.footer_wiget_tittle h3 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	position: relative;
+	padding-bottom: 24px;
+}
+
+.footer_wiget_tittle h3:before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #f36523;
+	width: 28px;
+	height: 4px;
+	content: '';
+	margin-bottom: 10px;
+}
+
+.contant_info_icon {
+	width: 26px;
+	height: 26px;
+	color: #f36523;
+	background: #fff;
+	font-size: 11px;
+	text-align: center;
+	line-height: 27px;
+	border-radius: 30px;
+	float: left;
+}
+
+.item_list_contact li a {
+	color: #fff;
+	font-size: 11px;
+}
+
+.info_contact {
+	font-size: 11px;
+	color: #FFF;
+	padding-left: 40px;
+	line-height: 18px;
+	padding-bottom: 18px;
+}
+
+.footer_blog {
+	float: left;
+	width: 40px;
+	margin-right: 15px;
+}
+
+.item_list_contact.newslatter li {
+	padding-bottom: 15px;
+}
+
+.blog_hare {
+	color: #fff;
+	font-size: 12px;
+	line-height: 19px;
+}
+
+.email_footer_send {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #f36523;
+	border-radius: 0px;
+	border: none;
+}
+
+.newslatter_input_footer {
+	position: relative;
+	margin-top: 64px;
+}
+
+.form-control.newslatter {
+	border-radius: 0px;
+	height: 36px;
+	background: #222e6b;
+	border: 1px solid #222e6b;
+}
+
+
+/*
+==========================
+	CUSTOM/COPYRIGHT AREA CSS
+==========================
+*/
+
+
+/*
+==========================
+	END CUSTOM/COPYRIGHT AREA CSS
+==========================
+*/
+
+.copyright_area_sc {
+	background: #222e6b;
+}
+
+.copyright_text p {
+	padding: 10px 0 0px;
+	color: #fff;
+	font-size: 13px;
+}
+
+.copyright_text span a {
+	color: #f36523;
+}
+
+.bars_mobile {
+	display: none;
+}
+
+.close_btn {
+	display: none;
+}
+
+.about_banner.video.videos_area {
+	background: url("../image/video_galarey.jpg") no-repeat center/cover;
+}
+
+.lang_icon {
+	width: 20px;
+	margin-right: 8px;
+}
+
+.dropdown-item.lang_bar {
+	font-size: 13px;
+}
+
+.dropdown-menu.lang_bar {
+	min-width: 8rem;
+	padding: 5px 0px;
+}
+.read_more:hover{
+	background: #f20000;
+}
+.service_promo_box{
+	overflow: hidden;
+	transition: .5s;
+}
+.service_single_item{
+	transition: .5s;
+}
+.service_single_item:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: .5s;
+
+}
+
+
+/*
+==========================
+	 END FOOTER AREA CSS
+==========================
+*/
+

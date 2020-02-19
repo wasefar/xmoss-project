@@ -1,0 +1,81 @@
+/*BUTTON CSS*/
+
+.read_more {
+	padding: 5px 27px;
+	border-radius: 0;
+	background: #fff;
+	color: #021057;
+	border-bottom: 2px solid #f20000;
+	border: none;
+	border-bottom: 2px solid #f20000;
+	font-size: 12px;
+	line-height: 21px;
+	margin-right: 5px;
+	margin: 0;
+}
+.owl-carousel.home_slider .arrow_icon {
+	width: 12px;
+	display: inline-block;
+	margin-left: 5px;
+}
+.icon_video i {
+	color: #f36523;
+	background: #fff;
+	width: 34px;
+	height: 34px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 34px;
+	font-size: 13px;
+}
+.icon_video.cricle {
+	width: 62px;
+	height: 61px;
+	padding: 6px 6px 0px;
+}
+.icon_video {
+	border: 0.5px solid #aebaf7;
+	width: 48px;
+	border-radius: 50px;
+	height: 47px;
+	line-height: 43px;
+	text-align: center;
+}
+.read_more.about_info {
+	background: #03115a;
+	color: #fff;
+	padding: 7px 33px;
+	font-size: 14px;
+	font-weight: 600;
+}
+.read_more.about_info:hover{
+	background: #f20000;
+}
+.item_list_contact li a:hover{
+	color: #f36523;
+}
+.blog_hare:hover{
+	color: #f36523;
+}
+.video_btn_icon {
+	width: 35px;
+	height: 35px;
+	border: 1px solid transparent;
+	font-size: 15px;
+	color: #ddd;
+	text-align: center;
+	border-radius: 50px;
+	line-height: 36px;
+	/*margin-right: 9px;*/
+}
+.video_btn_icon.active{
+	color: #03115a;
+	border: 1px solid #03115a;
+}
+.video_btn_icon:hover{
+	color: #03115a;
+	border: 1px solid #03115a;
+}
+
+
+/*END BUTTON CSS*/
